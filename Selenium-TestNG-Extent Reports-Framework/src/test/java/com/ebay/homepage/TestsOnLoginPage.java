@@ -33,7 +33,7 @@ public class TestsOnLoginPage extends Base{
 		
 		Obj_Homepage obj_home = new Obj_Homepage(driver);
 		obj_home.clickLoginLink().click();;
-		logger.info("Clicked on Sign in link");
+		logger.info("Clicked on Sign in link ");
 		
 		Obj_Login_page obj_login = new Obj_Login_page(driver);
 		obj_login.enterUsername().sendKeys(username);
