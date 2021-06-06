@@ -29,7 +29,7 @@ public class TestsOnLoginPage extends Base{
 	public void login(String username, String password) {
 		
 		driver.get(prop.getProperty("url"));
-		logger.info("URL submitted");
+		logger.info("URL submitted Here");
 		
 		Obj_Homepage obj_home = new Obj_Homepage(driver);
 		obj_home.clickLoginLink().click();;
